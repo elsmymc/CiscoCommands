@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example of Network Address Translation (NAT)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Example of Network Address Translation (NAT)</h1>
+        <a href="MenuEX.html" class="back-button">Back to top</a>
+    </header>
+
+    <main>
+        <section>
+            <h2>Example of Network Address Translation (NAT)</h2>
+
+           
+		<p><b>Static NAT Configuration</b></p>
+          	<img src="IMG/b12_natestat.jpg" alt="Static NAT Configuration" >
+		<p>This NAT configuration consists of mapping a private address to a public address statically.</p>
+
+
+		<p><b>Dynamic NAT Configuration</b></p>
+          	<img src="IMG/b12_natedin.jpg" alt="Dynamic NAT Configuration" >
+		<p>This configuration uses a Public IP Pool for a Private IP Pool that will be mapped dynamically and on demand.</p>
+
+
+		<p><b>NAT Configuration Overloaded or PAT</b></p>
+          	<img src="IMG/b12_pat.jpg" alt="NAT Configuration Overloaded or PAT" >
+		<p>The PAT configuration sets the overhead translation for the NAT-POOL2 NAT set. NAT-POOL2 contains the addresses from 209.165.200.226 to 209.165.200.240. Hosts on the 192.168.0.0/16 network are subject to translation. The S2/0 interface is identified as the internal interface, and the S3/0 interface is identified as the external interface.</p>
+		
+		<p><b>Show IP NAT Translation Command</b></p>
+          	<img src="IMG/b12_shnat.jpg" alt="Show IP NAT Translation Command" >
+		
+
+			
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tutorial de Comandos Cisco</p>
+    </footer>
+</body>
+</html>
